@@ -6,8 +6,8 @@ class Bsi_vws extends CI_Controller {
 	public function index()
 	{
 		$data=[
-			'title'=>'Virtual Workshop - Universitas BSI',
-			'images'=>'bsi_logo.png'
+			'title'=>'Welcome...',
+			'images'=>'bsi_vws_bg2.jpeg'
 		];
 		
 		$this->load->view('bsi_vws_v', $data);		

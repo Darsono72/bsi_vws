@@ -6,10 +6,11 @@
 </head>
 <body>
 	<div id="container">
-		<div id="body" style="height: 500px;">
-			Selamat Datang di :
-			<h1><?php echo $title; ?></h1>
-			<center><img src="<?php echo base_url('/assets/images/'.$images.'');?>"></center>
+		<div id="body">
+			<center>
+				<h1><?php echo $title; ?></h1>
+				<img src="<?php echo base_url('/assets/images/'.$images);?>" height="500">
+			</center>
 		</div>
 	</div>
 </body>
