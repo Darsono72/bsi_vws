@@ -20,3 +20,4 @@ application/logs/*
 sftp-config.json
 
 .env.development
+application/config/database.php
