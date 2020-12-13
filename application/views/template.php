@@ -17,7 +17,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<div class="content">
 		<div class="col-md-12 judul">
-			<i class="glyphicon glyphicon-chevron-right"></i><?php echo $title;?>			
+			<i class="glyphicon glyphicon-chevron-right text-danger"></i>
+			<?php echo $title;?>			
 		</div>
 		<?php $this->load->view($page);?>
 	</div>
