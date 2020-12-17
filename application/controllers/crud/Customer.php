@@ -31,6 +31,19 @@ class Customer extends CI_Controller {
 		redirect('crud/customer','refresh');
 	}
 
+	function dummy_cust___(){
+		for ($i=100; $i < 1000; $i++) { 
+			$data=[
+				'cust_id'=>$i,
+				'cust_name'=>'cust_'.$i,
+				'cust_address'=>'Alamat cust '.$i,
+				'cust_phone'=>'09090'.$i
+			];
+
+			$this->customer_m->create_cust($data);
+		}
+	}
+
 	function list_cust(){
 		$qry=$this->customer_m->list_cust();
 

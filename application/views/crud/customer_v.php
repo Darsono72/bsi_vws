@@ -28,6 +28,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 			<hr>
 			<a href="<?php echo base_url().'crud/customer/list_cust';?>">LIST CUSTOMER</a>
+			<hr>
+			<img src="<?php echo base_url('/assets/images/'.$images);?>">
 		</div>
 	</div>
 </body>
