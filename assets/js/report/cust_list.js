@@ -38,7 +38,7 @@ $('#btn_save_modal').click(function() {
         cust_phone: $('#cust_phone').val(),
         cust_id: $('#cust_id').val()
     }, function(result) {
-        $('#my_modal').modal('show');
+        $('#my_modal').modal('hide');
         get_data();
     });
 })
