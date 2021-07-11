@@ -7,8 +7,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<link rel="stylesheet" type="text/css"  href="<?php echo base_url('/assets/css/mycss.css?r='.rand()); ?>">
 	<link rel="stylesheet" type="text/css"  href="<?php echo base_url('/assets/vendor/bootstrap/css/bootstrap.css'); ?>">
 
+	<script type="text/javascript"> const url = '<?php echo base_url() ?>'</script>
 	<script type="text/javascript" src="<?php echo base_url('/assets/js/jquery-1.12.4.js');?>"></script>
 	<script type="text/javascript" src="<?php echo base_url('/assets/vendor/bootstrap/js/bootstrap.js');?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('/assets/js/jquery/jquery.dataTables.min.js');?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('/assets/js/jquery/dataTables.bootstrap.min.js');?>"></script>
+
 </head>
 <body>
 	<?php $this->load->view('layout/modal');?>
