@@ -12,9 +12,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<center>
 				<h1><?php echo $title; ?></h1>
 				<img src="<?php echo base_url('/assets/images/'.$images);?>" height="500">
-			</center>
 			<br>
-			<a href="<?php echo base_url();?>master/item">ITEM MASTER</a>
+			<button class="btn btn-success"><a href="<?php echo base_url();?>master/item">ITEM MASTER</a></span></button>
+			<button class="btn btn-warning"><a href="<?php echo base_url();?>crud/customer">CUSTOMER MASTER</a></span></button>
+			</center>
 		</div>
 	</div>
 </body>
