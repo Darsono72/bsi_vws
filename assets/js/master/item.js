@@ -1,3 +1,8 @@
 $('#btn_saave').click(function(event) {
-    $('#my_modal').modal('show');
+
+    $.post('/path/to/file', {
+        item_id: $('#item_id').val()
+    }, function(result) {
+        $('#my_modal').modal('show');
+    });
 });

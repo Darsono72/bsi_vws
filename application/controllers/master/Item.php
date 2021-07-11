@@ -14,6 +14,17 @@ class Item extends CI_Controller {
 		$this->load->view('template', $data);		
 	}
 
+	function save_item(){
+		$data=[
+			'cust_id'=>$this->input->post('cust_id'),
+			'cust_name'=>$this->input->post('cust_name'),
+			'cust_address'=>$this->input->post('cust_address'),
+			'cust_phone'=>$this->input->post('cust_phone')
+		];
+
+		$this->db->insert('',$data);		
+	}
+
 }
 
 /* End of file Item.php */

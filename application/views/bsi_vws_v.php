@@ -13,6 +13,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<h1><?php echo $title; ?></h1>
 				<img src="<?php echo base_url('/assets/images/'.$images);?>" height="500">
 			</center>
+			<br>
+			<a href="<?php echo base_url();?>master/item">ITEM MASTER</a>
 		</div>
 	</div>
 </body>
